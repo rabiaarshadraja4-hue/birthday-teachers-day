@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Very Important Website 🎉</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- =========================
+         HOME PAGE
+    ========================== -->
+
+    <section id="home" class="page active">
+
+        <div class="container">
+
+            <p class="small-title">
+                A VERY IMPORTANT UPDATE HAS BEEN DEPLOYED 🚀
+            </p>
+
+            <h1>
+                Two Reasons to Celebrate 🎉
+            </h1>
+
+            <p class="intro">
+                Today happens to be a very special day...
+                because someone is celebrating <b>TWO</b> occasions at once. 👀
+            </p>
+
+
+            <div class="buttons">
+
+                <button onclick="showPage('birthday')">
+                    🎂 Birthday Wishes
+                </button>
+
+                <button onclick="showPage('teachers')">
+                    📚 Teachers' Day Wishes
+                </button>
+
+            </div>
+
+
+            <p class="warning">
+                ⚠️ Warning: Contains respect, appreciation & unnecessary teasing. 😂
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         BIRTHDAY PAGE
+    ========================== -->
+
+    <section id="birthday" class="page">
+
+        <div class="container">
+
+            <button class="back" onclick="showPage('home')">
+                ← Back
+            </button>
+
+
+            <h1>
+                🎂 Happy Birthday, Sir! 🎉
+            </h1>
+
+
+            <!-- INTRO -->
+
+            <div class="card evolution-intro">
+
+                <h2>
+                    👀 Ek Important Observation...
+                </h2>
+
+                <p class="big-text">
+                    AJ kal bary <b>lush push</b> phirty hain... 😌
+                </p>
+
+                <p>
+                    Zara peechay ja kar dekh lain...
+                    <br>
+                    <b>kese thay ap. 👀</b>
+                </p>
+
+                <button onclick="startEvolution()">
+                    🔍 Dekhein zara...
+                </button>
+
+            </div>
+
+
+
+            <!-- OLD PHOTO REVEAL -->
+
+            <div id="oldReveal" class="photo-reveal">
+
+                <p class="reveal-text">
+                    Presenting...
+                    <br>
+                    <b>The Old Era™</b> 😂
+                </p>
+
+                <img
+                    src="images/old-sir.jpeg"
+                    alt="Sir old picture"
+                    class="old-main-photo"
+                >
+
+            </div>
+
+
+
+            <!-- MODERN VERSION -->
+
+            <div id="modernReveal" class="modern-section">
+
+                <p class="big-text modern-intro">
+                    Chalain ab dekh laain apna
+                    <b>lush push version</b> hehe 😭😂
+                </p>
+
+                <p class="transition-text">
+                    Kahan se kahan pohanch gaye... 👀
+                </p>
+
+
+                <div class="photo-transition">
+
+                    <!-- MODERN PHOTO - UNDERNEATH -->
+
+                    <img
+                        src="modern-sir.jpeg"
+                        alt="Sir modern picture"
+                        class="modern-photo"
+                    >
+
+
+                    <!-- OLD PHOTO - WILL RIP AWAY -->
+
+                    <div class="torn-paper">
+
+                        <img
+                            src="old-sir.jpeg"
+                            alt="Old version"
+                        >
+
+                    </div>
+
+
+                    <div class="tear-line"></div>
+
+                </div>
+
+
+                <p class="modern-caption">
+                    ✨ From Old School → Lush Push Modern Version ✨
+                </p>
+
+            </div>
+
+
+
+            <!-- BAMBII / NARAZ JOKE -->
+
+            <div class="card mischief-card">
+
+                <h2>
+                    😭 Ab to bary ho gaye hain Bambii...
+                </h2>
+
+                <p class="big-text">
+                    Lekin <b>naraz honay ki aadat</b>
+                    abhi tak update nahi hui? 🙄
+                </p>
+
+                <p>
+                    Software update karwa lain Bambii...
+                    version kaafi purana chal raha hai. 😭
+                </p>
+
+            </div>
+
+
+
+            <!-- EYES SECTION -->
+
+            <div class="card eyes-section">
+
+                <h2>
+                    👀 Aur phir aati hain...
+                </h2>
+
+                <p class="big-text">
+                    <b>Woh famous aankhein...</b>
+                </p>
+
+                <p>
+                    Jo har picture mein somehow
+                    <i>apna size khud decide karti hain.</i> 😂
+                </p>
+
+
+                <div class="sneaky-eye-photo">
+
+                    <img
+                        src="squint-sir.jpeg"
+                        alt="The famous squinting eyes"
+                    >
+
+                </div>
+
+
+                <p class="eye-joke">
+                    “Gulabi ankhain jo teri,
+                    dekhain sharabi...
+                    ye dill ho gyaaa...” 😂😭
+                </p>
+
+                <p>
+                    <b>Nasheeli aankhain detected. 🚨👀</b>
+                </p>
+
+            </div>
+
+
+
+            <!-- FINAL BIRTHDAY MESSAGE -->
+
+            <div class="card final-message">
+
+                <h2>
+                    🌷 Jokes Apart...
+                </h2>
+
+                <p>
+                    I hope you have a really amazing birthday.
+                    May this year bring you lots of happiness,
+                    success, good health and plenty of reasons to smile.
+                </p>
+
+                <p>
+                    Stay happy, keep smiling,
+                    and keep being the same fun person you are.
+                </p>
+
+                <h2>
+                    Happy Birthday, Sir! 🎂✨
+                </h2>
+
+            </div>
+
+
+
+            <button
+                class="back-bottom"
+                onclick="showPage('home')"
+            >
+                ← Back to Home
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =========================
+         TEACHERS' DAY PAGE
+    ========================== -->
+
+    <section id="teachers" class="page">
+
+        <div class="container">
+
+            <button class="back" onclick="showPage('home')">
+                ← Back
+            </button>
+
+
+            <h1>
+                📚 Happy Teachers' Day, Sir!
+            </h1>
+
+
+
+            <!-- APPRECIATION -->
+
+            <div class="card">
+
+                <h2>
+                    👨‍🏫 A Small Appreciation
+                </h2>
+
+                <p>
+                    Aaj appreciation ka din hai,
+                    is liye aaj aapki zyada tang nai khenchain gy... 😌
+                </p>
+
+                <p class="big-text">
+                    <b>
+                        “Kr lo masti end py main dekh lon ga
+                        tum sb ko phr main nai suno ga kisi ki”
+                    </b>
+                </p>
+
+                <p>
+                    <i>
+                        — Lines of Someone Famous 😐
+                    </i>
+                </p>
+
+            </div>
+
+
+
+            <!-- TEACHER + FRIEND -->
+
+            <div class="card">
+
+                <h2>
+                    🌷 Teacher + Friend
+                </h2>
+
+                <p>
+                    Jokes apart, thank you for being the kind of teacher
+                    who doesn't always feel like <i>just a teacher</i>.
+                </p>
+
+                <p>
+                    Your friendly nature makes it easier to talk,
+                    joke around and actually enjoy the learning process.
+                </p>
+
+                <p>
+                    Aapki teaching ke saath saath
+                    aapki friendly nature bhi definitely memorable hai. 🌷
+                </p>
+
+            </div>
+
+
+
+            <!-- INSIDE JOKE -->
+
+            <div class="card">
+
+                <h2>
+                    😐 One Rule Though...
+                </h2>
+
+                <p class="big-text">
+                    <b>
+                        “Bas sawal nai krny mere sy,
+                        baki jo merzi kro.” 😂
+                    </b>
+                </p>
+
+                <p>
+                    Sir ke golden rules mein se ek. 😭
+                </p>
+
+            </div>
+
+
+
+            <!-- FINAL TEACHERS DAY MESSAGE -->
+
+            <div class="card">
+
+                <h2>
+                    🌷 One Last Thing...
+                </h2>
+
+                <p>
+                    Despite all the teasing, complaints,
+                    and unnecessary <b>“nasheeli aankhon”</b>
+                    comments 😂,
+                    you genuinely are one of those teachers
+                    who will be remembered.
+                </p>
+
+                <h2>
+                    Happy Teachers' Day! 🎉
+                </h2>
+
+                <p>
+                    Stay happy, successful...
+                    and please,
+                    <b>
+                        next picture mein aankhein thori bari
+                        rakh lijiyega.
+                    </b>
+                    👀😂
+                </p>
+
+            </div>
+
+
+
+            <button
+                class="back-bottom"
+                onclick="showPage('home')"
+            >
+                ← Back to Home
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
